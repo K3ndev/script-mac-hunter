@@ -1,11 +1,16 @@
 # MAC Address Finder
 
+![result](./result.png)
+
 ### Overview
 This bash script is designed to continuously scan a local network using `nmap`, extract MAC addresses from the scan results, and search for corresponding names in a text file. It provides a simple and effective way to monitor network activity and detect any unauthorized devices.
 
 ## Prerequisites
 - `nmap` and `bash` installed on the system
 - Text file (`list.txt`) containing MAC addresses and corresponding names
+
+## Notes
+1. Devices can manually set their MAC addresses, potentially leading to inaccuracies in identification.
 
 ## Usage
 1. Example `list.txt` Format
